@@ -1,0 +1,12 @@
+export interface Note {
+  _id: string;
+  title: string;
+  body: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface NotePayload {
+  title?: string;
+  body?: string;
+}
